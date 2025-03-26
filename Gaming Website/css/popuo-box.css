@@ -1,6 +1,6 @@
 /* Styles for dialog window */
 #small-dialog,#small-dialog1,#small-dialog2,#small-dialog3,#small-dialog4,#small-dialog5{
-	background: white;
+	background: rgb(255, 0, 0);
 	padding:20px;
 	text-align: left;
 	max-width: 650px;
@@ -72,7 +72,7 @@ opacity: 0;
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #0b0b0b;
+  background: #ff0202;
   opacity: 0.8;
   filter: alpha(opacity=80); }
 
@@ -155,7 +155,7 @@ opacity: 0;
 	min-height:500px;
 }
 .mfp-preloader {
-  color: #cccccc;
+  color: #ff0000;
   position: absolute;
   top: 50%;
   width: auto;
@@ -166,10 +166,10 @@ opacity: 0;
   z-index: 1044; }
 
 .mfp-preloader a {
-  color: #cccccc; }
+  color: #ff0000; }
 
 .mfp-preloader a:hover {
-  color: white; }
+  color: rgb(255, 0, 0); }
 
 .mfp-s-ready .mfp-preloader {
   display: none; }
@@ -182,7 +182,7 @@ button.mfp-arrow {
   overflow: visible;
   cursor: pointer;
   border: 0;
-   background:#FFF;
+   background:#ff0303;
   -webkit-appearance: none;
   display: block;
   padding: 0;
@@ -233,5 +233,5 @@ button::-moz-focus-inner {
 	font-size: 1.5em;
 	font-weight: 500;
 	margin: 16px 0px 0px 0px;
-	color:#3F4244;
+	color:#0097fc;
 }
