@@ -64,8 +64,8 @@ h1 {
   font-size: 2em;
 }
 mark {
-  color: #000;
-  background: #ff0;
+  color: #63ff08;
+  background: rgb(3, 161, 29);
 }
 small {
   font-size: 80%;
@@ -164,7 +164,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   padding: .35em .625em .75em;
   margin: 0 2px;
-  border: 1px solid #c0c0c0;
+  border: 1px solid #0e4effc0;
 }
 legend {
   padding: 0;
@@ -186,7 +186,7 @@ th {
 }
 @media print {
   * {
-    color: #000 !important;
+    color: #00ffdd !important;
     text-shadow: none !important;
     background: transparent !important;
     box-shadow: none !important;
@@ -393,7 +393,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #999;
+  color: #eeff00;
 }
 h1,
 .h1,
@@ -2082,7 +2082,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
   color: #fff;
   background-color: #1B242F;
-  border-color: #357ebd;
+  border-color: #0088ff;
 }
 .btn-primary:hover,
 .btn-primary:focus,
